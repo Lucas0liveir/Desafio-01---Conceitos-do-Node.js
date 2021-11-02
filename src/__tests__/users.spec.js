@@ -9,7 +9,7 @@ describe('Users', () => {
       .post('/users')
       .send({
         name: 'John Doe',
-        username: 'johndoe'
+        username: 'johndoe',
       })
     expect(201);
 
